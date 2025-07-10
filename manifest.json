@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "CX Anti-Adblock Remover",
+    "version": "1.0",
+    "description": "Extensión parte de CX Files que ayuda a eliminar bloqueadores anti-adblock y mejora la experiencia de usuario.",
+    "permissions": [
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "author": "Im_JVallejo"
+}
